@@ -1,0 +1,77 @@
+/* Styles for the body of the page */
+body {
+    font-family: 'Arial', sans-serif; /* Set the font of the body to Arial */
+    background-color: #f4f4f4; /* Set the background color of the body to a light gray */
+    padding: 20px; /* Add 20px of padding around the body */
+    color: #333; /* Set the text color to a dark gray */
+}
+
+/* Styles for the gameboard */
+#gameboard {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the gameboard horizontally */
+    align-items: center; /* Center the gameboard vertically */
+    flex-direction: column; /* Stack the children of the gameboard vertically */
+}
+
+/* Styles for the board */
+#board {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the board horizontally */
+    align-items: center; /* Center the board vertically */
+    flex-direction: column; /* Stack the children of the board vertically */
+    gap: 10px; /* Add a 10px gap between the children of the board */
+}
+
+/* Styles for the mancala-store and mancala-hole classes */
+#board .mancala-store, #board .mancala-hole {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    width: 100px; /* Set the width to 100px */
+    height: 100px; /* Set the height to 100px */
+    border: 1px solid #ddd; /* Add a 1px solid border with a light gray color */
+    border-radius: 10px; /* Round the corners with a 10px radius */
+}
+
+/* Styles for the mancala-store class */
+#board .mancala-store {
+    background-color: #ccc; /* Set the background color to a light gray */
+}
+
+/* Styles for the mancala-hole class */
+#board .mancala-hole {
+    background-color: #eee; /* Set the background color to a very light gray */
+}
+
+/* Styles for buttons */
+button {
+    display: block; /* Display as a block element */
+    margin: 20px auto; /* Add a 20px margin to the top and bottom, and auto margin to the left and right to center the button */
+    padding: 10px 20px; /* Add 10px of padding to the top and bottom, and 20px of padding to the left and right */
+    background-color: #333; /* Set the background color to a dark gray */
+    color: #fff; /* Set the text color to white */
+    border: none; /* Remove the border */
+    cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+    border-radius: 5px; /* Round the corners with a 5px radius */
+}
+
+/* Styles for buttons when hovered over */
+button:hover {
+    background-color: #444; /* Darken the background color */
+}
+
+/* Styles for the player id */
+#player {
+    font-size: 20px; /* Set the font size to 20px */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text */
+    margin-top: 20px; /* Add a 20px margin to the top */
+}
+
+/* Styles for images */
+img {
+    width: 100px; /* Set the width to 100px */
+    height: 100px; /* Set the height to 100px */
+    margin: 0 10px; /* Add a 10px margin to the left and right */
+}
